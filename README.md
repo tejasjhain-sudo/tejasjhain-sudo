@@ -1,8 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:0D1117,40:161B22,70:00D2FF,100:70FF00&height=230&section=header&text=Tejas%20%7C%20FlixStudios&fontSize=56&fontAlignY=36&desc=High-Performance%20Minecraft%20Architecture%20%26%20Engine%20Development&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>
+  <img src="./assets/header.svg" alt="FlixStudios Architecture Header" width="100%" />
+
+  <br/><br/>
 
   <a href="https://flixstudios.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=1100&color=00D2FF&center=true&vCenter=true&width=650&lines=%E2%9A%A1+High-Performance+Minecraft+Core+Architecture;%F0%9F%9B%A1%EF%9F+Packet-Level+Anticheat+%26+Async+Netty+Interception;%E2%9A%94%EF%9F+Sub-Tick+Hitreg+%26+Raycast+Trajectory+Physics;%F0%9F%8C%90+Founder+%26+Lead+Architect+%40+FlixStudios" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1100&color=00D2FF&center=true&vCenter=true&width=650&lines=High-Performance+Minecraft+Core+Architecture;Packet-Level+Anticheat+%26+Async+Netty;Sub-Tick+Hitreg+%26+Raycast+Trajectory+Physics;Founder+%26+Lead+Architect+%40+FlixStudios" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -78,8 +80,9 @@ I am **Tejas**, founder and lead software architect at **FlixStudios**. I engine
 
 <br/>
 
+---
+
 <div align="center">
-  <a href="https://flixstudios.in">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:161B22,50:00D2FF,100:70FF00&height=110&section=footer" width="100%"/>
-  </a>
+  <p><b>Crafted with precision by Tejas • Founder &amp; Lead Architect at <a href="https://flixstudios.in">FlixStudios</a></b></p>
+  <p>© 2026 FlixStudios. All rights reserved.</p>
 </div>

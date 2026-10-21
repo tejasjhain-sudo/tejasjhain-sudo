@@ -1,0 +1,124 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090d"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+
+    <!-- Neon Cyan to Chartreuse Header Gradient -->
+    <linearGradient id="neonGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="45%" stop-color="#38EF7D"/>
+      <stop offset="100%" stop-color="#70FF00"/>
+    </linearGradient>
+
+    <!-- Subtle Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur"/>
+    </filter>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="70" result="blur"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.22; }
+      50% { opacity: 0.38; }
+    }
+    .ambient-glow {
+      animation: pulse 6s ease-in-out infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      letter-spacing: -1.5px;
+    }
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+    }
+    .mono-text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg)"/>
+
+  <!-- Subtle Cyber Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="340"/>
+    <line x1="400" y1="0" x2="400" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/>
+    <line x1="800" y1="0" x2="800" y2="340"/>
+    <line x1="1000" y1="0" x2="1000" y2="340"/>
+  </g>
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="220" cy="80" r="140" fill="#00D2FF" opacity="0.18" filter="url(#glowCyan)" class="ambient-glow"/>
+  <circle cx="1020" cy="220" r="160" fill="#70FF00" opacity="0.14" filter="url(#glowGreen)" class="ambient-glow"/>
+
+  <!-- Border Outline -->
+  <rect x="1" y="1" width="1198" height="338" rx="15" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Top Pill / Studio Identifier -->
+  <g transform="translate(60, 48)">
+    <rect width="216" height="28" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#00D2FF" stroke-opacity="0.3"/>
+    <circle cx="14" cy="14" r="4" fill="#70FF00"/>
+    <text x="26" y="18" fill="#e2e8f0" font-size="11" class="mono-text" letter-spacing="1.2">FLIXSTUDIOS ARCHITECTURE</text>
+  </g>
+
+  <!-- Version / Target Badge -->
+  <g transform="translate(930, 48)">
+    <rect width="210" height="28" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="18" y="18" fill="#94a3b8" font-size="11" class="mono-text" letter-spacing="0.5">TARGET: FOLIA • 1.20 - 1.21+</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="60" y="160" fill="url(#neonGradient)" font-size="72" class="title-text">FLIXSTUDIOS</text>
+
+  <!-- Subtitle -->
+  <text x="62" y="206" fill="#f8fafc" font-size="20" class="sub-text">High-Performance Minecraft Core Architecture &amp; Packet Security</text>
+  <text x="62" y="234" fill="#94a3b8" font-size="14" class="sub-text">Engineered by Tejas • Sub-Tick Hit Registration • Asynchronous Netty Pipelines • Folia Ready</text>
+
+  <!-- Bottom Tech Pills -->
+  <g transform="translate(60, 272)">
+    <!-- Pill 1: Java 21 LTS -->
+    <g transform="translate(0, 0)">
+      <rect width="110" height="30" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="19" fill="#cbd5e1" font-size="11" class="mono-text">⚡ JAVA 21 LTS</text>
+    </g>
+
+    <!-- Pill 2: PaperMC / Purpur -->
+    <g transform="translate(122, 0)">
+      <rect width="168" height="30" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="19" fill="#cbd5e1" font-size="11" class="mono-text">📦 PAPER &amp; PURPUR</text>
+    </g>
+
+    <!-- Pill 3: Netty Async -->
+    <g transform="translate(302, 0)">
+      <rect width="138" height="30" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="19" fill="#cbd5e1" font-size="11" class="mono-text">🛡️ NETTY ASYNC</text>
+    </g>
+
+    <!-- Pill 4: Sub-Tick Combat -->
+    <g transform="translate(452, 0)">
+      <rect width="156" height="30" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="19" fill="#cbd5e1" font-size="11" class="mono-text">⚔️ SUB-TICK HITREG</text>
+    </g>
+
+    <!-- Pill 5: Folia Multithreaded -->
+    <g transform="translate(620, 0)">
+      <rect width="176" height="30" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="19" fill="#cbd5e1" font-size="11" class="mono-text">🌐 FOLIA MULTI-THREAD</text>
+    </g>
+  </g>
+</svg>
